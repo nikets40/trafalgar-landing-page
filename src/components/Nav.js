@@ -24,7 +24,7 @@ export default Nav;
 const NavBar = styled.div`
   display: flex;
   height: 70px;
-  max-width: 1024px;
+  max-width: 1280px;
   margin: auto;
   padding: 0 20px;
   align-items: center;
