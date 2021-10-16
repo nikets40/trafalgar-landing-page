@@ -51,4 +51,8 @@ const NavMenu = styled.div`
     font-weight: 700;
     }
   }
+
+  @media (max-width: 768px) {
+      display: none;
+  }
 `;

@@ -153,7 +153,7 @@ const ServiceCard = styled.div`
 `;
 
 const LearnMoreButton = styled.button`
-  margin: 0 auto 70px;
+  margin:auto;
   border: 1.4px solid #458ff6;
   background-color: white;
   color: #458ff6;
