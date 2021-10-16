@@ -62,7 +62,7 @@ export default Services;
 const Container = styled.div`
   max-width: 1280px;
   margin: 100px auto 0;
-  padding: 0 20px;
+  padding: 0 50px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -97,7 +97,7 @@ const AllServices = styled.div`
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
-  @media (min-width: 768px) {
+  @media (min-width: 820px) {
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   }
 `;

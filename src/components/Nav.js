@@ -26,7 +26,7 @@ const NavBar = styled.div`
   height: 70px;
   max-width: 1280px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 50px;
   align-items: center;
   justify-content: space-between;
 `;

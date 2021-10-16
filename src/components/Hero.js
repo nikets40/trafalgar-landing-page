@@ -26,22 +26,32 @@ export default Hero;
 const Container = styled.div`
   max-width: 1280px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media(max-width:768px){
+    flex-direction: column-reverse;
+  }
 `;
 
 const Cta = styled.div`
   max-width: 430px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
+
+  @media(max-width:768px){
+    max-width: 100%;
+  }
 `;
 const HeroImg = styled.div`
   height: auto;
   max-width: 693px;
   min-width: 200px;
   max-height: 598px;
+
 
   img {
     width: 100%;
