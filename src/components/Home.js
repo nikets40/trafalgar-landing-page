@@ -4,6 +4,7 @@ import About from "./About";
 import Hero from "./Hero";
 import Nav from "./Nav";
 import Services from "./Services";
+import Testimonials from "./Testimonials";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Hero />
       <Services />
       <About />
+      <Testimonials/>
     </Container>
   );
 }
