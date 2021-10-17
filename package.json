@@ -1,5 +1,7 @@
+
 {
-  "homepage": "http://nikets40.github.io/trafalgar-landing-page",
+  
+  "homepage": ".",
   "name": "trafalgar-landing-page",
   "version": "0.1.0",
   "private": true,
