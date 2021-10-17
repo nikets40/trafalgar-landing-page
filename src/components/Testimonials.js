@@ -1,27 +1,49 @@
 import React from "react";
 import styled from "styled-components";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Testimonials() {
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+  };
+
+  var testimonials = [];
+
+  for (var i = 0; i < 4; i++) {
+    testimonials.push(
+      <div>
+      <Testimonial>
+        <UserData>
+          <img alt="avatar" src="/images/user-image.png" />
+          <div>
+            <h4>Edward Newgate</h4>
+            <h5>Founder Circle</h5>
+          </div>
+        </UserData>
+
+        <Comment>
+          “Our dedicated patient engagement app and web portal allow you to
+          access information instantaneously (no tedeous form, long calls, or
+          administrative hassle) and securely”
+        </Comment>
+      </Testimonial>
+      </div>
+    );
+  }
+
   return (
     <Container>
       <GradientBox>
         <h3>What our customer are saying</h3>
         <Divider />
-        <Testimonial>
-          <UserData>
-            <img alt="avatar" src="/images/user-image.png" />
-            <div>
-              <h4>Edward Newgate</h4>
-              <h5>Founder Circle</h5>
-            </div>
-          </UserData>
-
-          <Comment>
-            “Our dedicated patient engagement app and web portal allow you to
-            access information instantaneously (no tedeous form, long calls, or
-            administrative hassle) and securely”
-          </Comment>
-        </Testimonial>
+        <Carousel {...settings}>{testimonials}</Carousel>
       </GradientBox>
     </Container>
   );
@@ -29,10 +51,42 @@ function Testimonials() {
 
 export default Testimonials;
 
+const Carousel = styled(Slider)`
+  margin-top: 20px;
+
+  ul li button {
+    &:before {
+      font-size: 10px;
+      /* color: rgb(150 158 171); */
+      color: #5b9bf3;
+    }
+  }
+
+  li.slick-active button:before {
+    color: #5b9bf3;
+  }
+
+  .slick-arrow{
+    display: none;
+  }
+
+  .slick-list {
+    overflow: hidden;
+  }
+
+  button {
+    z-index: 1;
+  }
+`;
 const Container = styled.div`
   max-width: 1280px;
   margin: 150px auto;
   padding: 0 50px;
+
+  @media (max-width: 550px) {
+    margin: 150px 0;
+    padding: 0;
+  }
 `;
 
 const Divider = styled.div`
@@ -104,9 +158,8 @@ const Comment = styled.p`
   font-weight: 400;
   margin: 40px;
   max-width: 520px;
-  @media(max-width:768px){
+  @media (max-width: 768px) {
     margin: 20px 40px 40px;
     max-width: 100%;
   }
- 
 `;
