@@ -15,7 +15,7 @@ function Hero() {
       </Cta>
 
       <HeroImg>
-        <img alt="hero-pic" src="/images/hero-img.png" />
+        <img alt="hero-pic" src="trafalgar-landing-page/images/hero-img.png" />
       </HeroImg>
     </Container>
   );

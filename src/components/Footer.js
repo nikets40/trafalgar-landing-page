@@ -6,7 +6,7 @@ function Footer() {
     <GradientBackground>
       <Container>
         <Column>
-          <img alt="" src="/images/logo-white.svg" />
+          <img alt="" src="trafalgar-landing-page/images/logo-white.svg" />
           <p>
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone

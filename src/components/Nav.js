@@ -5,7 +5,7 @@ function Nav() {
   return (
     <NavBar>
       <Logo>
-        <img alt="log" src="/images/logo.svg" />
+        <img alt="log" src="trafalgar-landing-page/images/logo.svg" />
       </Logo>
 
       <NavMenu>
