@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import About from "./About";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import Nav from "./Nav";
 import RecentArticles from "./RecentArticles";
@@ -14,8 +15,9 @@ function Home() {
       <Hero />
       <Services />
       <About />
-      <Testimonials/>
-      <RecentArticles/>
+      <Testimonials />
+      <RecentArticles />
+      <Footer />
     </Container>
   );
 }
