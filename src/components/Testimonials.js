@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import avatar from "../images/user-image.png"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,7 +22,7 @@ function Testimonials() {
       <div>
       <Testimonial>
         <UserData>
-          <img alt="avatar" src="/images/user-image.png" />
+          <img alt="avatar" src={avatar} />
           <div>
             <h4>Edward Newgate</h4>
             <h5>Founder Circle</h5>

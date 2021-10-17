@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import whiteLogo from "../images/logo-white.svg"
 
 function Footer() {
   return (
     <GradientBackground>
       <Container>
         <Column>
-          <img alt="" src="/images/logo-white.svg" />
+          <img alt="" src={whiteLogo} />
           <p>
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone

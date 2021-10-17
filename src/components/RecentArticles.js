@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import blog1 from "../images/blog-1.png"
+import blog2 from "../images/blog-2.png"
+import blog3 from "../images/blog-3.png"
 
 function RecentArticles() {
   return (
@@ -9,7 +12,7 @@ function RecentArticles() {
 
       <Articles>
         <Card>
-          <img src="/images/blog-1.png" alt="" />
+          <img src={blog1} alt="" />
           <h4>Disease detection, check up in the laboratory</h4>
           <h5>
             In this case, the role of the health laboratory is very important to
@@ -19,7 +22,7 @@ function RecentArticles() {
         </Card>
 
         <Card>
-          <img src="/images/blog-2.png" alt="" />
+          <img src={blog2} alt="" />
           <h4>Herbal medicines that are safe for consumption</h4>
           <h5>
             Herbal medicine is very widely used at this time because of its very
@@ -29,7 +32,7 @@ function RecentArticles() {
         </Card>
 
         <Card>
-          <img src="/images/blog-3.png" alt="" />
+          <img src={blog3} alt="" />
           <h4>Natural care for healthy facial skin</h4>
           <h5>
             A healthy lifestyle should start from now and also for your skin

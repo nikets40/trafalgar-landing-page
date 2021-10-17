@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import heroImg from "../images/hero-img.png"
 
 function Hero() {
   return (
@@ -15,7 +16,7 @@ function Hero() {
       </Cta>
 
       <HeroImg>
-        <img alt="hero-pic" src="/images/hero-img.png" />
+        <img alt="hero-pic" src={heroImg} />
       </HeroImg>
     </Container>
   );

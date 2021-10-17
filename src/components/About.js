@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import healthcareImg from "../images/leading-healthcare-provider.png";
+import downloadAppImg from "../images/download-app.png";
 
 function About() {
   return (
@@ -7,7 +9,7 @@ function About() {
       <Container>
         <Data>
           <Title>Leading healthcare providers</Title>
-          <br/>
+          <br />
           <SubTitle>
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just
@@ -18,14 +20,14 @@ function About() {
         </Data>
 
         <Image>
-          <img alt="hero-pic" src="/images/leading-healthcare-provider.png" />
+          <img alt="hero-pic" src={healthcareImg} />
         </Image>
       </Container>
 
       <Container>
         <Data>
           <Title>Download our mobile apps</Title>
-          <br/>
+          <br />
           <SubTitle>
             Our dedicated patient engagement app and web portal allow you to
             access information instantaneously (no tedeous form, long calls, or
@@ -36,7 +38,7 @@ function About() {
         </Data>
 
         <Image>
-          <img alt="hero-pic" src="/images/download-app.png" />
+          <img alt="hero-pic" src={downloadAppImg} />
         </Image>
       </Container>
     </div>
@@ -54,12 +56,12 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  &:nth-child(1){
+  &:nth-child(1) {
     flex-direction: row-reverse;
     @media (max-width: 768px) {
-    flex-direction: column-reverse;
-    margin-top: 100px;
-  }
+      flex-direction: column-reverse;
+      margin-top: 100px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -104,7 +106,7 @@ const Title = styled.span`
   font-weight: 700;
   line-height: 56px;
   @media (max-width: 768px) {
-      margin-top: 30px;
+    margin-top: 30px;
   }
 `;
 

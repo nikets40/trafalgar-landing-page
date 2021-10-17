@@ -1,16 +1,22 @@
 import React from "react";
 import styled from "styled-components";
+import image1 from "../images/search-doctor.png" 
+import image2 from "../images/pharmacy.png" 
+import image3 from "../images/consultation.png" 
+import image4 from "../images/details-info.png" 
+import image5 from "../images/emergency-care.png" 
+import image6 from "../images/tracking.png" 
 
 function Services() {
   const sectionDescription =
     "We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health";
   const icons = [
-    "/images/search-doctor.png",
-    "/images/pharmacy.png",
-    "/images/consultation.png",
-    "/images/details-info.png",
-    "/images/emergency-care.png",
-    "/images/tracking.png",
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
   ];
 
   const serviceNames = [
