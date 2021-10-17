@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trafalgar-landing-page/static/css/main.d738ec55.chunk.css",
-    "main.js": "/trafalgar-landing-page/static/js/main.44588f74.chunk.js",
-    "main.js.map": "/trafalgar-landing-page/static/js/main.44588f74.chunk.js.map",
+    "main.js": "/trafalgar-landing-page/static/js/main.6a07845e.chunk.js",
+    "main.js.map": "/trafalgar-landing-page/static/js/main.6a07845e.chunk.js.map",
     "runtime-main.js": "/trafalgar-landing-page/static/js/runtime-main.4cad0acc.js",
     "runtime-main.js.map": "/trafalgar-landing-page/static/js/runtime-main.4cad0acc.js.map",
     "static/css/2.2347b90f.chunk.css": "/trafalgar-landing-page/static/css/2.2347b90f.chunk.css",
@@ -14,14 +14,28 @@
     "static/css/2.2347b90f.chunk.css.map": "/trafalgar-landing-page/static/css/2.2347b90f.chunk.css.map",
     "static/css/main.d738ec55.chunk.css.map": "/trafalgar-landing-page/static/css/main.d738ec55.chunk.css.map",
     "static/js/2.03ac9553.chunk.js.LICENSE.txt": "/trafalgar-landing-page/static/js/2.03ac9553.chunk.js.LICENSE.txt",
+    "static/media/blog-1.31c136bb.png": "/trafalgar-landing-page/static/media/blog-1.31c136bb.png",
+    "static/media/blog-2.be8057ce.png": "/trafalgar-landing-page/static/media/blog-2.be8057ce.png",
+    "static/media/blog-3.a805f45d.png": "/trafalgar-landing-page/static/media/blog-3.a805f45d.png",
+    "static/media/consultation.42dd22d1.png": "/trafalgar-landing-page/static/media/consultation.42dd22d1.png",
+    "static/media/details-info.dafba4ab.png": "/trafalgar-landing-page/static/media/details-info.dafba4ab.png",
+    "static/media/download-app.14edc30e.png": "/trafalgar-landing-page/static/media/download-app.14edc30e.png",
+    "static/media/emergency-care.7b17bc7c.png": "/trafalgar-landing-page/static/media/emergency-care.7b17bc7c.png",
+    "static/media/hero-img.a0601754.png": "/trafalgar-landing-page/static/media/hero-img.a0601754.png",
+    "static/media/leading-healthcare-provider.bfd85dbc.png": "/trafalgar-landing-page/static/media/leading-healthcare-provider.bfd85dbc.png",
+    "static/media/logo-white.6169c8cd.svg": "/trafalgar-landing-page/static/media/logo-white.6169c8cd.svg",
     "static/media/logo.f957b9df.svg": "/trafalgar-landing-page/static/media/logo.f957b9df.svg",
-    "static/media/slick-theme.css": "/trafalgar-landing-page/static/media/slick.c94f7671.ttf"
+    "static/media/pharmacy.982c5805.png": "/trafalgar-landing-page/static/media/pharmacy.982c5805.png",
+    "static/media/search-doctor.d8048760.png": "/trafalgar-landing-page/static/media/search-doctor.d8048760.png",
+    "static/media/slick-theme.css": "/trafalgar-landing-page/static/media/slick.c94f7671.ttf",
+    "static/media/tracking.de914e2b.png": "/trafalgar-landing-page/static/media/tracking.de914e2b.png",
+    "static/media/user-image.6429f2f2.png": "/trafalgar-landing-page/static/media/user-image.6429f2f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4cad0acc.js",
     "static/css/2.2347b90f.chunk.css",
     "static/js/2.03ac9553.chunk.js",
     "static/css/main.d738ec55.chunk.css",
-    "static/js/main.44588f74.chunk.js"
+    "static/js/main.6a07845e.chunk.js"
   ]
 }
