@@ -9,7 +9,7 @@ function RecentArticles() {
 
       <Articles>
         <Card>
-          <img src="trafalgar-landing-page/images/blog-1.png" alt="" />
+          <img src="/images/blog-1.png" alt="" />
           <h4>Disease detection, check up in the laboratory</h4>
           <h5>
             In this case, the role of the health laboratory is very important to
@@ -19,7 +19,7 @@ function RecentArticles() {
         </Card>
 
         <Card>
-          <img src="trafalgar-landing-page/images/blog-2.png" alt="" />
+          <img src="/images/blog-2.png" alt="" />
           <h4>Herbal medicines that are safe for consumption</h4>
           <h5>
             Herbal medicine is very widely used at this time because of its very
@@ -29,7 +29,7 @@ function RecentArticles() {
         </Card>
 
         <Card>
-          <img src="trafalgar-landing-page/images/blog-3.png" alt="" />
+          <img src="/images/blog-3.png" alt="" />
           <h4>Natural care for healthy facial skin</h4>
           <h5>
             A healthy lifestyle should start from now and also for your skin

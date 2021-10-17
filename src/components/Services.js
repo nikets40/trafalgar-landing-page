@@ -5,12 +5,12 @@ function Services() {
   const sectionDescription =
     "We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health";
   const icons = [
-    "trafalgar-landing-page/images/search-doctor.png",
-    "trafalgar-landing-page/images/pharmacy.png",
-    "trafalgar-landing-page/images/consultation.png",
-    "trafalgar-landing-page/images/details-info.png",
-    "trafalgar-landing-page/images/emergency-care.png",
-    "trafalgar-landing-page/images/tracking.png",
+    "/images/search-doctor.png",
+    "/images/pharmacy.png",
+    "/images/consultation.png",
+    "/images/details-info.png",
+    "/images/emergency-care.png",
+    "/images/tracking.png",
   ];
 
   const serviceNames = [

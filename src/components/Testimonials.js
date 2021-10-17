@@ -21,7 +21,7 @@ function Testimonials() {
       <div>
       <Testimonial>
         <UserData>
-          <img alt="avatar" src="trafalgar-landing-page/images/user-image.png" />
+          <img alt="avatar" src="/images/user-image.png" />
           <div>
             <h4>Edward Newgate</h4>
             <h5>Founder Circle</h5>

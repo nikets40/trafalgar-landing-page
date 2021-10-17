@@ -18,7 +18,7 @@ function About() {
         </Data>
 
         <Image>
-          <img alt="hero-pic" src="trafalgar-landing-page/images/leading-healthcare-provider.png" />
+          <img alt="hero-pic" src="/images/leading-healthcare-provider.png" />
         </Image>
       </Container>
 
@@ -36,7 +36,7 @@ function About() {
         </Data>
 
         <Image>
-          <img alt="hero-pic" src="trafalgar-landing-page/images/download-app.png" />
+          <img alt="hero-pic" src="/images/download-app.png" />
         </Image>
       </Container>
     </div>
