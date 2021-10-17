@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import logo from "../images/logo.svg"
 
 function Nav() {
   return (
     <NavBar>
       <Logo>
-        <img alt="log" src="/images/logo.svg" />
+        <img alt="log" src={logo} />
       </Logo>
 
       <NavMenu>
