@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trafalgar-landing-page/static/css/main.d738ec55.chunk.css",
-    "main.js": "/trafalgar-landing-page/static/js/main.67ca46cc.chunk.js",
-    "main.js.map": "/trafalgar-landing-page/static/js/main.67ca46cc.chunk.js.map",
+    "main.js": "/trafalgar-landing-page/static/js/main.f8442229.chunk.js",
+    "main.js.map": "/trafalgar-landing-page/static/js/main.f8442229.chunk.js.map",
     "runtime-main.js": "/trafalgar-landing-page/static/js/runtime-main.4cad0acc.js",
     "runtime-main.js.map": "/trafalgar-landing-page/static/js/runtime-main.4cad0acc.js.map",
     "static/css/2.2347b90f.chunk.css": "/trafalgar-landing-page/static/css/2.2347b90f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.2347b90f.chunk.css",
     "static/js/2.03ac9553.chunk.js",
     "static/css/main.d738ec55.chunk.css",
-    "static/js/main.67ca46cc.chunk.js"
+    "static/js/main.f8442229.chunk.js"
   ]
 }
